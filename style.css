@@ -1,0 +1,30 @@
+body{
+    font-family: Courier, monospace;
+    background-color:  #E9D5CA;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    color: #827397;
+    font-size: 48pt;
+}
+
+button{
+
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #4D4C7D;
+    color: white;
+    padding: 0 20px;
+}
+
+button:active{
+        background-color: #363062;
+}
