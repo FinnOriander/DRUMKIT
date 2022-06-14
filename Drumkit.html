@@ -20,6 +20,17 @@
         <button id="tink" onclick="play(7)">Tink</button>
         <button id="tom" onclick="play(8)">Tom</button>
     </div>
+    <br>
+    <div class="playback">
+        <button id="play" onclick="startLoop()">Play</button>
+        <button id="stop" onclick="endLoop()">Stop</button>
+        <button id="record" onclick="record()">Record</button>
+        <button id="normal" onclick="normalSpeed()">Reset Delay</button>
+        <button id="fast" onclick="faster()">Lower Delay</button>
+        <button id="slow" onclick="slower()">Higher Delay</button>
+    </div>
+    <br>
+    <p id="speedLabel">Delay: 1s</p>
 
     <script src="./main.js"></script>
 </body>
